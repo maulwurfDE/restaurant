@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="content">
+    <header class="header">
+      <h1 class="header__title">Hoffmann Brat Haus</h1>
+
+      <nav class="nav">
+        <ul class="nav__ul">
+          <li class="nav__list">
+            <a class="nav__link" href="#">BRATS</a>
+          </li>
+          <li class="nav__list">
+            <a class="nav__link" href="#">BREWS</a>
+          </li>
+          <li class="nav__list">
+            <a class="nav__link" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main" class="main">
+      <section id="brats" class="hero hero--brats">
+        <div class="content-background">
+          <h2 class="section__heading">Hours</h2>
+          <p class="section__text">Mon-Wed 11:30am - 9pm</p>
+          <p class="section__text">Thursday 11:30am - 9:30pm</p>
+          <p class="section__text">Friday 11:30am - 10pm</p>
+          <p class="section__text">Saturday 10:00am - 10pm</p>
+          <p class="section__text">Sunday 10:00am - 9:30pm</p>
+          <p class="section__text section__text--red">
+            Happy Hour 2-6pm except Saturdays
+          </p>
+        </div>
+      </section>
+
+      <section id="brews" class="hero hero--brews">
+        <h2 class="section__heading">Brews</h2>
+        <p class="section__text">"Ein Bier, bitte - One beer, please!"</p>
+        <p class="section__text">
+          Hoffmann Brat Haus offers Santa Barbara’s finest selection of European beer. Imported straight from their
+          original breweries. Served in traditional glassware to bring out the aroma, flavor and color of each
+          individual beer for the most enjoyable experience.
+          Prost!
+        </p>
+
+        <a id="show-menu" class="menu-show" href="#">See Brew Menu</a>
+
+        <section id="menu" class="hero hero--menu">
+          <div class="card">
+            <div class="card_left">
+              <h3 class="card__heading">WEIHNSTEPHANER PILSNER</h3>
+              <p class="card__text">light, crisp, German 500ml</p>
+            </div>
+            <p class="card_right card__text card__text--cost">Single - $7.5</p>
+          </div>
+
+          <div class="card">
+            <div class="card_left">
+              <h3 class="card__heading">DELIRIUM TREMENS</h3>
+              <p class="card__text">strong blonde ale, iconic pink elephant </p>
+            </div>
+            <p class="card_right card__text card__text--cost">Single - $9</p>
+          </div>
+
+          <div class="card">
+            <div class="card_left">
+              <h3 class="card__heading">HOFBRÄU DUNKEL</h3>
+              <p class="card__text">dunkel lager, German 500m</p>
+            </div>
+            <p class="card_right card__text card__text--cost">Single - $8</p>
+          </div>
+
+          <div class="card">
+            <div class="card_left">
+              <h3 class="card__heading">ST. BERNARDUS QUADRUPLE</h3>
+              <p class="card__text">classic Belgian strong Abbey ale</p>
+            </div>
+            <p class="card_right card__text card__text--cost">Single - $9</p>
+          </div>
+        </section>
+      </section>
+
+      <section id="contact" class="hero hero--contact contact">
+        <h2 class="section__heading">Contact Us</h2>
+        <h3 class="contact__phone">Phone: (805) 962-3131</h3>
+
+        <form class="form">
+          <h3 class="form__heading">Get in Touch</h3>
+          <label id="name" class="form__label">Name:</label>
+          <input id="name" class="form__input form__input--text" type="text" placeholder="Enter your Name">
+
+          <label id="email" class="form__label">E-Mail:</label>
+          <input id="email" class="form__input form__input--email" type="email" placeholder="example@example.com">
+
+          <label id="subject" class="form__label">Subject:</label>
+          <input id="subject" class="form__input form__input--text" type="text" placeholder="Greetings...">
+
+          <label id="message" class="form__label">Message:</label>
+          <input id="message" class="form__input form__input--textarea" type="textarea">
+
+          <button class="form__btn" type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
