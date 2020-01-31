@@ -1,0 +1,110 @@
+/* Universal */
+
+* { /* Use for resetting browser's default padding and margin */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 55%;
+}
+
+body {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none; /* Remove underline */
+}
+
+input::placeholder {
+  color: inherit;
+  font-size: inherit;
+}
+
+/* Header */
+
+.header {
+  width: 100%;
+  height: auto;
+  padding: 2em 0;
+  background: black; /* shorthand for background-color */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  text-align: center;
+  font-size: 2.75rem;
+}
+
+.nav__ul {  
+  list-style-type: none; /* Remove list style bullet point */
+  padding: 0;
+  margin: 1em 0 0;
+
+  display: flex;
+}
+
+.nav__link {
+  padding: 0 1em;
+}
+
+.nav__link:focus {
+  color: red;
+}
+
+.nav__link:hover {
+  color: yellow;
+}
+
+/* Main */
+/* Brats Section */
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: #6a6a6a; 
+}
+
+.hero--brats {
+  background-image: url('https://static.wixstatic.com/media/11a572_eda7b9a156444f5ca7305b45014c50c7.jpg/v1/fill/w_1329,h_886,al_c,q_85,usm_0.66_1.00_0.01/11a572_eda7b9a156444f5ca7305b45014c50c7.jpg'); /* Adds background image to the section element  */
+  background-size: cover; /* Make background image the same size of width and height */
+  background-position: center; /* Position background image at the center. Certain section of the image may be hidden */
+  background-repeat: no-repeat; /* If image can't cover all the area, it will repeat the same image */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.5rem; 
+}
+
+.content-background {
+  background: rgba(0,0,0,.8); 
+  padding: 1em 0;
+}
+
+.section__heading {
+  font-size: 3.75rem;
+}
+
+.section__text {
+  font-size: 1.75rem;
+}
+
+.section__text--red {
+  margin-top: 1em;
+  color: red;
+}
+
+/* Menu Section */
+
+
+/* Contact Section */
