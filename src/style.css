@@ -106,5 +106,112 @@ input::placeholder {
 
 /* Menu Section */
 
+.hero--brews {
+  background-image: url("https://static.wixstatic.com/media/11a572_d101d3a7080a4be29c0e15cefe94bcca.png/v1/fill/w_2317,h_629,al_c,q_85,usm_0.66_1.00_0.01/11a572_d101d3a7080a4be29c0e15cefe94bcca.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.menu {
+  margin-top: 1.5em;
+  background-color: rgba(0,0,0,.8);
+  padding: 2em 0;
+}
+
+.menu-show {
+  text-decoration: underline;
+  text-decoration-color: #ED1C24;
+}
+
+.menu--hidden {
+  display: none;
+}
 
 /* Contact Section */
+.contact {
+  background: black;
+  padding-top: 1.5em;
+  height: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.form__label {
+  align-self: flex-start;
+  margin-top: .5em;
+}
+
+.form__btn {
+  color: #DD490F;
+  margin-top: 1em;
+  align-self: flex-end;
+  font-size: 16px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+iframe {
+  margin-top: 2em;
+  width: 100%;
+}
+
+/* Media Queries */
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  /* Brats section */
+
+  .hero--brats {
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+
+  .content-background {
+    margin: 8em;
+  }
+  
+  .section__text--red {
+    margin: 0 1.5em;
+  }
+
+  /* Menu Section (Brews) */
+
+  .hero--brews {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .content {
+    width: 400px;
+    text-align: left;
+    margin-right: 5%;
+  }
+
+  .menu {
+    align-self: center;
+    width: 400px;
+  }
+
+  /* Contact */
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+  }
+
+  iframe {
+    margin-left: 3em;
+    height: 300px;
+    max-width: 500px;
+  }
+}
