@@ -18,11 +18,6 @@ const menus = [
     title: 'ST. BERNARDUS QUADRUPLE',
     text: 'classic Belgian strong Abbey ale',
     cost: 'Single - $9'
-  },
-  {
-    title: 'It works',
-    text: 'asdf',
-    cost: 'haha'
   }
 ]
 
