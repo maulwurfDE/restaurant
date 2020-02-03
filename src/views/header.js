@@ -24,6 +24,12 @@ const createHTMLElement = (el, classList = [], textContent) => {
   return element
 }
 
+const updateContent = (content, newSection) => {
+  content.innerHTML = "";
+  content.appendChild(header)
+  content.appendChild(newSection)
+}
+
 const header = createHTMLElement('header', ['header']);
 const h1 = createHTMLElement('h1', ['header__title'], 'Hoffman brat Haus');
 const nav = createHTMLElement('nav', ['nav']);
@@ -39,6 +45,7 @@ ul.appendChild(brews);
 ul.appendChild(contact);
 
 export {
-  createHTMLElement
+  createHTMLElement,
+  updateContent
 }
 export default header
