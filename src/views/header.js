@@ -31,7 +31,7 @@ const updateContent = (content, newSection) => {
 }
 
 const header = createHTMLElement('header', ['header']);
-const h1 = createHTMLElement('h1', ['header__title'], 'Hoffman brat Haus');
+const h1 = createHTMLElement('h1', ['header__title'], 'Hoffman Brat Haus');
 const nav = createHTMLElement('nav', ['nav']);
 const ul = createHTMLElement('ul', ['nav__ul']);
 const brats = navList("BRATS");
