@@ -1,6 +1,7 @@
 # Restaurant Page
 
 Emulate Hoffman Brat Haus restaurant page.
+A pair programming project with [JoeDravarol](https://github.com/JoeDravarol). 
 
 ## Demo
 
