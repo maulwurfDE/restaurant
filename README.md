@@ -5,7 +5,7 @@ A pair programming project with [JoeDravarol](https://github.com/JoeDravarol).
 
 ## Demo
 
-[Demo](nearmint.github.io/restaurant)
+[Demo](https://nearmint.github.io/restaurant)
 
 ## Built with
 
